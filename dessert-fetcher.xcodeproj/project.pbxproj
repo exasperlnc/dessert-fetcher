@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9CA5A4F2C42EDC900D39BFE /* dessert_fetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */; };
+		D9CA5A512C42EDC900D39BFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A502C42EDC900D39BFE /* ContentView.swift */; };
+		D9CA5A532C42EDCB00D39BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */; };
+		D9CA5A562C42EDCB00D39BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A552C42EDCB00D39BFE /* Preview Assets.xcassets */; };
+		D9CA5A602C42EDCB00D39BFE /* dessert_fetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A5F2C42EDCB00D39BFE /* dessert_fetcherTests.swift */; };
+		D9CA5A6A2C42EDCB00D39BFE /* dessert_fetcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */; };
+		D9CA5A6C2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9CA5A5C2C42EDCB00D39BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CA5A432C42EDC900D39BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CA5A4A2C42EDC900D39BFE;
+			remoteInfo = "dessert-fetcher";
+		};
+		D9CA5A662C42EDCB00D39BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CA5A432C42EDC900D39BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CA5A4A2C42EDC900D39BFE;
+			remoteInfo = "dessert-fetcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9CA5A4B2C42EDC900D39BFE /* dessert-fetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dessert-fetcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherApp.swift; sourceTree = "<group>"; };
+		D9CA5A502C42EDC900D39BFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9CA5A552C42EDCB00D39BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dessert-fetcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CA5A5F2C42EDCB00D39BFE /* dessert_fetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherTests.swift; sourceTree = "<group>"; };
+		D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dessert-fetcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherUITests.swift; sourceTree = "<group>"; };
+		D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CA5A482C42EDC900D39BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A582C42EDCB00D39BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A622C42EDCB00D39BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9CA5A422C42EDC900D39BFE = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A4D2C42EDC900D39BFE /* dessert-fetcher */,
+				D9CA5A5E2C42EDCB00D39BFE /* dessert-fetcherTests */,
+				D9CA5A682C42EDCB00D39BFE /* dessert-fetcherUITests */,
+				D9CA5A4C2C42EDC900D39BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CA5A4C2C42EDC900D39BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A4B2C42EDC900D39BFE /* dessert-fetcher.app */,
+				D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */,
+				D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CA5A4D2C42EDC900D39BFE /* dessert-fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */,
+				D9CA5A502C42EDC900D39BFE /* ContentView.swift */,
+				D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */,
+				D9CA5A542C42EDCB00D39BFE /* Preview Content */,
+			);
+			path = "dessert-fetcher";
+			sourceTree = "<group>";
+		};
+		D9CA5A542C42EDCB00D39BFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A552C42EDCB00D39BFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9CA5A5E2C42EDCB00D39BFE /* dessert-fetcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A5F2C42EDCB00D39BFE /* dessert_fetcherTests.swift */,
+			);
+			path = "dessert-fetcherTests";
+			sourceTree = "<group>";
+		};
+		D9CA5A682C42EDCB00D39BFE /* dessert-fetcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */,
+				D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */,
+			);
+			path = "dessert-fetcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CA5A6F2C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcher" */;
+			buildPhases = (
+				D9CA5A472C42EDC900D39BFE /* Sources */,
+				D9CA5A482C42EDC900D39BFE /* Frameworks */,
+				D9CA5A492C42EDC900D39BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dessert-fetcher";
+			productName = "dessert-fetcher";
+			productReference = D9CA5A4B2C42EDC900D39BFE /* dessert-fetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9CA5A5A2C42EDCB00D39BFE /* dessert-fetcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CA5A722C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherTests" */;
+			buildPhases = (
+				D9CA5A572C42EDCB00D39BFE /* Sources */,
+				D9CA5A582C42EDCB00D39BFE /* Frameworks */,
+				D9CA5A592C42EDCB00D39BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CA5A5D2C42EDCB00D39BFE /* PBXTargetDependency */,
+			);
+			name = "dessert-fetcherTests";
+			productName = "dessert-fetcherTests";
+			productReference = D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9CA5A642C42EDCB00D39BFE /* dessert-fetcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CA5A752C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherUITests" */;
+			buildPhases = (
+				D9CA5A612C42EDCB00D39BFE /* Sources */,
+				D9CA5A622C42EDCB00D39BFE /* Frameworks */,
+				D9CA5A632C42EDCB00D39BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CA5A672C42EDCB00D39BFE /* PBXTargetDependency */,
+			);
+			name = "dessert-fetcherUITests";
+			productName = "dessert-fetcherUITests";
+			productReference = D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CA5A432C42EDC900D39BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D9CA5A4A2C42EDC900D39BFE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D9CA5A5A2C42EDCB00D39BFE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D9CA5A4A2C42EDC900D39BFE;
+					};
+					D9CA5A642C42EDCB00D39BFE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D9CA5A4A2C42EDC900D39BFE;
+					};
+				};
+			};
+			buildConfigurationList = D9CA5A462C42EDC900D39BFE /* Build configuration list for PBXProject "dessert-fetcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9CA5A422C42EDC900D39BFE;
+			productRefGroup = D9CA5A4C2C42EDC900D39BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */,
+				D9CA5A5A2C42EDCB00D39BFE /* dessert-fetcherTests */,
+				D9CA5A642C42EDCB00D39BFE /* dessert-fetcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CA5A492C42EDC900D39BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA5A562C42EDCB00D39BFE /* Preview Assets.xcassets in Resources */,
+				D9CA5A532C42EDCB00D39BFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A592C42EDCB00D39BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A632C42EDCB00D39BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CA5A472C42EDC900D39BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA5A512C42EDC900D39BFE /* ContentView.swift in Sources */,
+				D9CA5A4F2C42EDC900D39BFE /* dessert_fetcherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A572C42EDCB00D39BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA5A602C42EDCB00D39BFE /* dessert_fetcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CA5A612C42EDCB00D39BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA5A6A2C42EDCB00D39BFE /* dessert_fetcherUITests.swift in Sources */,
+				D9CA5A6C2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9CA5A5D2C42EDCB00D39BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */;
+			targetProxy = D9CA5A5C2C42EDCB00D39BFE /* PBXContainerItemProxy */;
+		};
+		D9CA5A672C42EDCB00D39BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */;
+			targetProxy = D9CA5A662C42EDCB00D39BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9CA5A6D2C42EDCB00D39BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9CA5A6E2C42EDCB00D39BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CA5A702C42EDCB00D39BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dessert-fetcher/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9CA5A712C42EDCB00D39BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dessert-fetcher/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9CA5A732C42EDCB00D39BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dessert-fetcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dessert-fetcher";
+			};
+			name = Debug;
+		};
+		D9CA5A742C42EDCB00D39BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dessert-fetcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dessert-fetcher";
+			};
+			name = Release;
+		};
+		D9CA5A762C42EDCB00D39BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dessert-fetcher";
+			};
+			name = Debug;
+		};
+		D9CA5A772C42EDCB00D39BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dessert-fetcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CA5A462C42EDC900D39BFE /* Build configuration list for PBXProject "dessert-fetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CA5A6D2C42EDCB00D39BFE /* Debug */,
+				D9CA5A6E2C42EDCB00D39BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CA5A6F2C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CA5A702C42EDCB00D39BFE /* Debug */,
+				D9CA5A712C42EDCB00D39BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CA5A722C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CA5A732C42EDCB00D39BFE /* Debug */,
+				D9CA5A742C42EDCB00D39BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CA5A752C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CA5A762C42EDCB00D39BFE /* Debug */,
+				D9CA5A772C42EDCB00D39BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CA5A432C42EDC900D39BFE /* Project object */;
+}
