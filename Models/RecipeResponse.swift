@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct RecipeResponse: Codable {
+    let meals: [Recipe]
+}
