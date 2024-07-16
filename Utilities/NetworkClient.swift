@@ -9,21 +9,30 @@ import Foundation
 
 class NetworkClient {
 
-    func performRequest(url: URL, completion: @escaping (Result<Data, Error>) -> Void) {
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
-                completion(.failure(error))
-                return
-            }
-            
-            guard let data = data else {
-                completion(.failure(NSError(domain: "No data", code: 0, userInfo: nil)))
-                return
-            }
-            
-            completion(.success(data))
+    func performRequest(url: URL) async -> Result<Data, Error> {
+        do {
+            let (data, response) = try await URLSession.shared.data(from: url)
+            return .success(data)
+        } catch {
+            print(error)
+            return .failure(error)
         }
         
-        task.resume()
+        
+        //        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+//            if let error = error {
+//                completion(.failure(error))
+//                return
+//            }
+//            
+//            guard let data = data else {
+//                completion(.failure(NSError(domain: "No data", code: 0, userInfo: nil)))
+//                return
+//            }
+//            
+//            completion(.success(data))
+//        }
+//        
+//        task.resume()
     }
 }
