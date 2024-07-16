@@ -11,7 +11,7 @@ class NetworkClient {
 
     func performRequest(url: URL) async -> Result<Data, Error> {
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await URLSession.shared.data(from: url)
             return .success(data)
         } catch {
             print(error)

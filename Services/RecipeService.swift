@@ -29,16 +29,23 @@ class RecipeService {
 //                    completion(.failure(error))
                     return []
                 }
-            case .failure(let error):
+            case .failure(_):
 //                completion(.failure(error))
                 return []
             }
     }
+    
+    enum RecipeError: Error {
+        case invalidURL
+        case noRecipeFound
+        case decodingError
+        case networkError(Error)
+    }
 
-    func fetchRecipeDetail(id: String, completion: @escaping (Result<Recipe, Error>) -> Void) async {
+    func fetchRecipeDetail(id: String) async -> Result<Recipe, RecipeError> {
         guard let url = URL(string: "https://www.themealdb.com/api/json/v1/1/lookup.php?i=\(id)") else {
-            completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
-            return
+//            completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
+            return .failure(.invalidURL)
         }
         
         let result = await networkClient.performRequest(url: url)
@@ -48,15 +55,19 @@ class RecipeService {
                     let decoder = JSONDecoder()
                     let recipeResponse = try decoder.decode(RecipeResponse.self, from: data)
                     if let recipe = recipeResponse.meals.first {
-                        completion(.success(recipe))
+//                        completion(.success(recipe))
+                        return .success(recipe)
                     } else {
-                        completion(.failure(NSError(domain: "No recipe found", code: 0, userInfo: nil)))
+//                        completion(.failure(NSError(domain: "No recipe found", code: 0, userInfo: nil)))
+                        return .failure(.noRecipeFound)
                     }
                 } catch {
-                    completion(.failure(error))
+//                    completion(.failure(error))
+                    return .failure(.decodingError)
                 }
             case .failure(let error):
-                completion(.failure(error))
+//                completion(.failure(error))
+                return .failure(.networkError(error))
             }
     }
 }
