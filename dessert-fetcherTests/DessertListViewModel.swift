@@ -18,13 +18,13 @@ class DessertListViewModel: ObservableObject {
     init(recipeService: RecipeService = RecipeService()) {
         self.recipeService = recipeService
     }
-    
+    @MainActor
     func fetchDesserts() async {
-        isLoading = true
+//        isLoading = true
         errorMessage = nil
         
         desserts = await recipeService.fetchDesserts()
         
-        isLoading = false
+//        isLoading = false
     }
 }
