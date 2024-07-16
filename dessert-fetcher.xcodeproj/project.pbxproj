@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D9CA5A4F2C42EDC900D39BFE /* dessert_fetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */; };
-		D9CA5A512C42EDC900D39BFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A502C42EDC900D39BFE /* ContentView.swift */; };
+		D9CA5A512C42EDC900D39BFE /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A502C42EDC900D39BFE /* DessertView.swift */; };
 		D9CA5A532C42EDCB00D39BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */; };
 		D9CA5A562C42EDCB00D39BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A552C42EDCB00D39BFE /* Preview Assets.xcassets */; };
 		D9CA5A602C42EDCB00D39BFE /* dessert_fetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A5F2C42EDCB00D39BFE /* dessert_fetcherTests.swift */; };
-		D9CA5A6A2C42EDCB00D39BFE /* dessert_fetcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */; };
-		D9CA5A6C2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */; };
 		D9CA5A7A2C42EF7000D39BFE /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A792C42EF7000D39BFE /* RecipeService.swift */; };
 		D9CA5A7B2C42EF7000D39BFE /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A792C42EF7000D39BFE /* RecipeService.swift */; };
 		D9CA5A7F2C42F01D00D39BFE /* RecipeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A7E2C42F01D00D39BFE /* RecipeServiceTests.swift */; };
@@ -30,17 +28,13 @@
 		D9CA5A992C45B36800D39BFE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A8E2C45A3CE00D39BFE /* Recipe.swift */; };
 		D9CA5A9A2C45B3C100D39BFE /* DessertsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A952C45AE9500D39BFE /* DessertsResponse.swift */; };
 		D9CA5A9B2C45B78200D39BFE /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A932C45AE8A00D39BFE /* RecipeResponse.swift */; };
+		D9CA5AAE2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */; };
+		D9CA5AAF2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */; };
+		D9CA5AB02C45E6FF00D39BFE /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A502C42EDC900D39BFE /* DessertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D9CA5A5C2C42EDCB00D39BFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9CA5A432C42EDC900D39BFE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9CA5A4A2C42EDC900D39BFE;
-			remoteInfo = "dessert-fetcher";
-		};
-		D9CA5A662C42EDCB00D39BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9CA5A432C42EDC900D39BFE /* Project object */;
 			proxyType = 1;
@@ -52,14 +46,11 @@
 /* Begin PBXFileReference section */
 		D9CA5A4B2C42EDC900D39BFE /* dessert-fetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dessert-fetcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherApp.swift; sourceTree = "<group>"; };
-		D9CA5A502C42EDC900D39BFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9CA5A502C42EDC900D39BFE /* DessertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertView.swift; sourceTree = "<group>"; };
 		D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CA5A552C42EDCB00D39BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dessert-fetcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CA5A5F2C42EDCB00D39BFE /* dessert_fetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherTests.swift; sourceTree = "<group>"; };
-		D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dessert-fetcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherUITests.swift; sourceTree = "<group>"; };
-		D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessert_fetcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9CA5A792C42EF7000D39BFE /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
 		D9CA5A7E2C42F01D00D39BFE /* RecipeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeServiceTests.swift; path = Services/RecipeServiceTests.swift; sourceTree = SOURCE_ROOT; };
 		D9CA5A822C459FCC00D39BFE /* NetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTests.swift; sourceTree = "<group>"; };
@@ -70,6 +61,7 @@
 		D9CA5A912C45A9A500D39BFE /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		D9CA5A932C45AE8A00D39BFE /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
 		D9CA5A952C45AE9500D39BFE /* DessertsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsResponse.swift; sourceTree = "<group>"; };
+		D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DessertListViewModel.swift; path = "dessert-fetcherTests/DessertListViewModel.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +73,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D9CA5A582C42EDCB00D39BFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9CA5A622C42EDCB00D39BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,7 +91,6 @@
 				D9CA5A902C45A96E00D39BFE /* Utilities */,
 				D9CA5A4D2C42EDC900D39BFE /* dessert-fetcher */,
 				D9CA5A5E2C42EDCB00D39BFE /* dessert-fetcherTests */,
-				D9CA5A682C42EDCB00D39BFE /* dessert-fetcherUITests */,
 				D9CA5A4C2C42EDC900D39BFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,7 +100,6 @@
 			children = (
 				D9CA5A4B2C42EDC900D39BFE /* dessert-fetcher.app */,
 				D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */,
-				D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				D9CA5A4E2C42EDC900D39BFE /* dessert_fetcherApp.swift */,
-				D9CA5A502C42EDC900D39BFE /* ContentView.swift */,
 				D9CA5A522C42EDCB00D39BFE /* Assets.xcassets */,
 				D9CA5A542C42EDCB00D39BFE /* Preview Content */,
 			);
@@ -152,15 +134,6 @@
 			path = "dessert-fetcherTests";
 			sourceTree = "<group>";
 		};
-		D9CA5A682C42EDCB00D39BFE /* dessert-fetcherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D9CA5A692C42EDCB00D39BFE /* dessert_fetcherUITests.swift */,
-				D9CA5A6B2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift */,
-			);
-			path = "dessert-fetcherUITests";
-			sourceTree = "<group>";
-		};
 		D9CA5A7D2C42EFA400D39BFE /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +156,8 @@
 		D9CA5A852C45A11000D39BFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */,
+				D9CA5A502C42EDC900D39BFE /* DessertView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,24 +208,6 @@
 			productReference = D9CA5A5B2C42EDCB00D39BFE /* dessert-fetcherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9CA5A642C42EDCB00D39BFE /* dessert-fetcherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9CA5A752C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherUITests" */;
-			buildPhases = (
-				D9CA5A612C42EDCB00D39BFE /* Sources */,
-				D9CA5A622C42EDCB00D39BFE /* Frameworks */,
-				D9CA5A632C42EDCB00D39BFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D9CA5A672C42EDCB00D39BFE /* PBXTargetDependency */,
-			);
-			name = "dessert-fetcherUITests";
-			productName = "dessert-fetcherUITests";
-			productReference = D9CA5A652C42EDCB00D39BFE /* dessert-fetcherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,10 +222,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					D9CA5A5A2C42EDCB00D39BFE = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = D9CA5A4A2C42EDC900D39BFE;
-					};
-					D9CA5A642C42EDCB00D39BFE = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = D9CA5A4A2C42EDC900D39BFE;
 					};
@@ -289,7 +242,6 @@
 			targets = (
 				D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */,
 				D9CA5A5A2C42EDCB00D39BFE /* dessert-fetcherTests */,
-				D9CA5A642C42EDCB00D39BFE /* dessert-fetcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,13 +263,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9CA5A632C42EDCB00D39BFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -325,10 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CA5A512C42EDC900D39BFE /* ContentView.swift in Sources */,
+				D9CA5A512C42EDC900D39BFE /* DessertView.swift in Sources */,
 				D9CA5A7A2C42EF7000D39BFE /* RecipeService.swift in Sources */,
 				D9CA5A892C45A14600D39BFE /* Dessert.swift in Sources */,
 				D9CA5A942C45AE8A00D39BFE /* RecipeResponse.swift in Sources */,
+				D9CA5AAE2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */,
 				D9CA5A4F2C42EDC900D39BFE /* dessert_fetcherApp.swift in Sources */,
 				D9CA5A962C45AE9500D39BFE /* DessertsResponse.swift in Sources */,
 				D9CA5A8F2C45A3CE00D39BFE /* Recipe.swift in Sources */,
@@ -347,19 +293,12 @@
 				D9CA5A9B2C45B78200D39BFE /* RecipeResponse.swift in Sources */,
 				D9CA5A8D2C45A39400D39BFE /* RecipeTests.swift in Sources */,
 				D9CA5A972C45B35100D39BFE /* NetworkClient.swift in Sources */,
+				D9CA5AAF2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */,
 				D9CA5A992C45B36800D39BFE /* Recipe.swift in Sources */,
 				D9CA5A9A2C45B3C100D39BFE /* DessertsResponse.swift in Sources */,
+				D9CA5AB02C45E6FF00D39BFE /* DessertView.swift in Sources */,
 				D9CA5A7F2C42F01D00D39BFE /* RecipeServiceTests.swift in Sources */,
 				D9CA5A832C459FCC00D39BFE /* NetworkClientTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9CA5A612C42EDCB00D39BFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9CA5A6A2C42EDCB00D39BFE /* dessert_fetcherUITests.swift in Sources */,
-				D9CA5A6C2C42EDCB00D39BFE /* dessert_fetcherUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,11 +309,6 @@
 			isa = PBXTargetDependency;
 			target = D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */;
 			targetProxy = D9CA5A5C2C42EDCB00D39BFE /* PBXContainerItemProxy */;
-		};
-		D9CA5A672C42EDCB00D39BFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9CA5A4A2C42EDC900D39BFE /* dessert-fetcher */;
-			targetProxy = D9CA5A662C42EDCB00D39BFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -592,40 +526,6 @@
 			};
 			name = Release;
 		};
-		D9CA5A762C42EDCB00D39BFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dessert-fetcher";
-			};
-			name = Debug;
-		};
-		D9CA5A772C42EDCB00D39BFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logan.dessert-fetcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dessert-fetcher";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,15 +552,6 @@
 			buildConfigurations = (
 				D9CA5A732C42EDCB00D39BFE /* Debug */,
 				D9CA5A742C42EDCB00D39BFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9CA5A752C42EDCB00D39BFE /* Build configuration list for PBXNativeTarget "dessert-fetcherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9CA5A762C42EDCB00D39BFE /* Debug */,
-				D9CA5A772C42EDCB00D39BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
