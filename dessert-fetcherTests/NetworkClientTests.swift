@@ -50,28 +50,27 @@ class NetworkClientTests: XCTestCase {
         //        await waitForExpectations(timeout: 5, handler: nil)
     }
 
-//    func testPerformRequestFetchRecipeDetail() throws {
-//        let sampleID = "52960"
-//        let url = URL(string: "https://www.themealdb.com/api/json/v1/1/lookup.php?i=\(sampleID)")!
-//        
-//        let expectation = self.expectation(description: "Completion handler invoked")
-//
-//        networkClient.performRequest(url: url) { result in
-//            switch result {
-//            case .success(let data):
-//                XCTAssertNotNil(data, "Expected non-nil data")
-//                do {
-//                    let decoder = JSONDecoder()
-//                    let recipeResponse = try decoder.decode(RecipeResponse.self, from: data)
-//                    XCTAssertEqual(recipeResponse.meals.first?.idMeal, sampleID, "Expected matching recipe ID")
-//                } catch {
-//                    XCTFail("Decoding error: \(error)")
-//                }
-//            case .failure(let error):
-//                XCTFail("Expected success, but got failure: \(error)")
-//            }
-//            expectation.fulfill()
-//        }
-//        waitForExpectations(timeout: 5, handler: nil)
-//    }
+    func testPerformRequestFetchRecipeDetail() async throws {
+        let sampleID = "52960"
+        let url = URL(string: "https://www.themealdb.com/api/json/v1/1/lookup.php?i=\(sampleID)")!
+        
+        let expectation = self.expectation(description: "Completion handler invoked")
+
+        let result = await networkClient.performRequest(url: url)
+            switch result {
+            case .success(let data):
+                XCTAssertNotNil(data, "Expected non-nil data")
+                do {
+                    let decoder = JSONDecoder()
+                    let recipeResponse = try decoder.decode(RecipeResponse.self, from: data)
+                    XCTAssertEqual(recipeResponse.meals.first?.idMeal, sampleID, "Expected matching recipe ID")
+                } catch {
+                    XCTFail("Decoding error: \(error)")
+                }
+            case .failure(let error):
+                XCTFail("Expected success, but got failure: \(error)")
+            }
+            expectation.fulfill()
+        await fulfillment(of: [expectation])
+    }
 }
