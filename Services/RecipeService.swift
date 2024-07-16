@@ -11,35 +11,37 @@ class RecipeService {
 
     private let networkClient = NetworkClient()
 
-    func fetchDesserts(completion: @escaping (Result<[Dessert], Error>) -> Void) {
+    func fetchDesserts() async -> [Dessert] {
         guard let url = URL(string: "https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert") else {
-            completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
-            return
+//            completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
+            return []
         }
         
-        networkClient.performRequest(url: url) { result in
+        let result = await networkClient.performRequest(url: url)
             switch result {
             case .success(let data):
                 do {
                     let decoder = JSONDecoder()
                     let dessertsResponse = try decoder.decode(DessertsResponse.self, from: data)
-                    completion(.success(dessertsResponse.meals))
+//                    completion(.success(dessertsResponse.meals))
+                    return dessertsResponse.meals
                 } catch {
-                    completion(.failure(error))
+//                    completion(.failure(error))
+                    return []
                 }
             case .failure(let error):
-                completion(.failure(error))
+//                completion(.failure(error))
+                return []
             }
-        }
     }
 
-    func fetchRecipeDetail(id: String, completion: @escaping (Result<Recipe, Error>) -> Void) {
+    func fetchRecipeDetail(id: String, completion: @escaping (Result<Recipe, Error>) -> Void) async {
         guard let url = URL(string: "https://www.themealdb.com/api/json/v1/1/lookup.php?i=\(id)") else {
             completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
             return
         }
         
-        networkClient.performRequest(url: url) { result in
+        let result = await networkClient.performRequest(url: url)
             switch result {
             case .success(let data):
                 do {
@@ -56,6 +58,5 @@ class RecipeService {
             case .failure(let error):
                 completion(.failure(error))
             }
-        }
     }
 }
