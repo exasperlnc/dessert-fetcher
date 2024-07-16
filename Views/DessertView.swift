@@ -17,7 +17,7 @@ struct DessertView: View {
         } else {
             List {
                 ForEach(viewModel.desserts, id: \.idMeal) { dessert in
-                    Text(dessert.strMeal)
+                    DessertCell(dessert: dessert)
                 }
             }
             .padding()

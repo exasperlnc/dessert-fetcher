@@ -31,6 +31,8 @@
 		D9CA5AAE2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */; };
 		D9CA5AAF2C45CB4500D39BFE /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */; };
 		D9CA5AB02C45E6FF00D39BFE /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A502C42EDC900D39BFE /* DessertView.swift */; };
+		D9CA5AB22C470EE500D39BFE /* DessertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AB12C470EE500D39BFE /* DessertCell.swift */; };
+		D9CA5AB32C47145700D39BFE /* DessertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5AB12C470EE500D39BFE /* DessertCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,7 @@
 		D9CA5A932C45AE8A00D39BFE /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
 		D9CA5A952C45AE9500D39BFE /* DessertsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsResponse.swift; sourceTree = "<group>"; };
 		D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DessertListViewModel.swift; path = "dessert-fetcherTests/DessertListViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		D9CA5AB12C470EE500D39BFE /* DessertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 			children = (
 				D9CA5AAD2C45CB4500D39BFE /* DessertListViewModel.swift */,
 				D9CA5A502C42EDC900D39BFE /* DessertView.swift */,
+				D9CA5AB12C470EE500D39BFE /* DessertCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +282,7 @@
 				D9CA5A4F2C42EDC900D39BFE /* dessert_fetcherApp.swift in Sources */,
 				D9CA5A962C45AE9500D39BFE /* DessertsResponse.swift in Sources */,
 				D9CA5A8F2C45A3CE00D39BFE /* Recipe.swift in Sources */,
+				D9CA5AB22C470EE500D39BFE /* DessertCell.swift in Sources */,
 				D9CA5A922C45A9A500D39BFE /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +293,7 @@
 			files = (
 				D9CA5A602C42EDCB00D39BFE /* dessert_fetcherTests.swift in Sources */,
 				D9CA5A8B2C45A26700D39BFE /* DessertTests.swift in Sources */,
+				D9CA5AB32C47145700D39BFE /* DessertCell.swift in Sources */,
 				D9CA5A982C45B36500D39BFE /* Dessert.swift in Sources */,
 				D9CA5A7B2C42EF7000D39BFE /* RecipeService.swift in Sources */,
 				D9CA5A9B2C45B78200D39BFE /* RecipeResponse.swift in Sources */,
