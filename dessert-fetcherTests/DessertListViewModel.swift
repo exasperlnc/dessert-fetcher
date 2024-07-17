@@ -21,7 +21,7 @@ class DessertListViewModel: ObservableObject {
     @MainActor
     func fetchDesserts() async {
 //        isLoading = true
-        errorMessage = nil
+//        errorMessage = nil
         
         desserts = await recipeService.fetchDesserts()
         
