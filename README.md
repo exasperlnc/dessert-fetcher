@@ -17,6 +17,7 @@ Coverage: Too low for my taste.
 ### Models
 
 Recipe Model: Current ingredientsAndMeasurements function is satisfactory, but with more time I would like to simply save the ingredient and measure Data together after the API call instead of reformatting it in the View. 
+![Screenshot 2024-07-18 at 10 43 58 AM](https://github.com/user-attachments/assets/ccf02bda-5a8d-451c-abc4-74fa6daa63f7)
 
 ### Service/Utilities
 
@@ -27,7 +28,10 @@ Async/Await: This method of concurrency gave me some trouble with error handling
 ### Views
 
 isLoading: Originally had this so I could show a ProgressView when still waiting for the calls, but whenever I had this feature enabled the app would stay on the progress view and not update when the call was made.
+![Screenshot 2024-07-18 at 10 41 33 AM](https://github.com/user-attachments/assets/aa9ac677-d73d-4555-9fb2-6bb3e53bcf2f)
+
 
 Recipe View: The recipe.strMeasure attributes are sometimes in the Imperial system (ounces, teaspoons, etc) and sometimes in grams. Would be good in future to either convert them all to the same measurement system with a function at the Model level, or to allow users to select an Imperial or Metric View and allow the ViewModel to toggle between different ways of displaying the Data.
+![Screenshot 2024-07-18 at 10 51 51 AM](https://github.com/user-attachments/assets/77a1dada-0023-4133-8b2d-c91d9e14f5d6)
 
    
