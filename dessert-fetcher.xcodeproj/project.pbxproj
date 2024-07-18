@@ -69,6 +69,7 @@
 		D9CA5AB12C470EE500D39BFE /* DessertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCell.swift; sourceTree = "<group>"; };
 		D9CA5AB42C47158A00D39BFE /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		D9CA5AB82C48177200D39BFE /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		D9CA5AC02C49752E00D39BFE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 		D9CA5A422C42EDC900D39BFE = {
 			isa = PBXGroup;
 			children = (
+				D9CA5AC02C49752E00D39BFE /* README.md */,
 				D9CA5A852C45A11000D39BFE /* Views */,
 				D9CA5A842C45A0E800D39BFE /* Models */,
 				D9CA5A7D2C42EFA400D39BFE /* Services */,

@@ -14,20 +14,16 @@ struct DessertView: View {
     
     var body: some View {
         NavigationStack {
-            if viewModel.isLoading {
-                ProgressView()
-            } else {
-                List {
-                    ForEach(viewModel.desserts, id: \.idMeal) { dessert in
-                        NavigationLink(destination: RecipeView(dessert: dessert)) {
-                            DessertCell(dessert: dessert)
-                        }
+            List {
+                ForEach(viewModel.desserts, id: \.idMeal) { dessert in
+                    NavigationLink(destination: RecipeView(dessert: dessert)) {
+                        DessertCell(dessert: dessert)
                     }
                 }
-                .padding()
-                .task {
-                    await viewModel.fetchDesserts()
-                }
+            }
+            .padding()
+            .task {
+                await viewModel.fetchDesserts()
             }
         }
     }

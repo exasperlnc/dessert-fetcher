@@ -10,8 +10,6 @@ import Foundation
 class DessertListViewModel: ObservableObject {
     
     @Published var desserts: [Dessert] = []
-    @Published var isLoading: Bool = false
-    @Published var errorMessage: String? = nil
     
     private let recipeService: RecipeService
     
