@@ -6,9 +6,7 @@ Hello! I'm Logan, a SWE in Austin Texas. I've built a few apps like this one, bu
 
 ### Testing
 
-I have traditionally used TDD to help me get my project running, I find tests to be an excellent way to get immediate feedback on how my code is working, and it was very useful in ensuring my requests and Models were all working as intended. 
-
-#### Extensions
+TDD: I have traditionally used TDD to help me get my project running, I find tests to be an excellent way to get immediate feedback on how my code is working, and it was very useful in ensuring my requests and Models were all working as intended. 
 
 UI testing: I didn't have time to do UI testing that wasn't manual, but if I had more time this would be one of my top priorities.
 
