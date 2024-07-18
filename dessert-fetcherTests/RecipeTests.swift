@@ -11,7 +11,6 @@ import XCTest
 class RecipeTests: XCTestCase {
 
     func testRecipeDecoding() throws {
-        // Given: A JSON representation of a recipe
         let json = """
         {
             "idMeal": "52772",
@@ -25,12 +24,10 @@ class RecipeTests: XCTestCase {
         }
         """.data(using: .utf8)!
         
-        // When: Decoding the JSON into a Recipe object
         let decoder = JSONDecoder()
         do {
             let recipe = try decoder.decode(Recipe.self, from: json)
             
-            // Then: Verify that the Recipe object is correctly populated
             XCTAssertEqual(recipe.idMeal, "52772", "Expected idMeal to be 52772")
             XCTAssertEqual(recipe.strMeal, "Teriyaki Chicken Casserole", "Expected strMeal to be Teriyaki Chicken Casserole")
             XCTAssertEqual(recipe.strInstructions, "Preheat oven to 350 degrees F. Spray a 9x13-inch baking dish with non-stick spray....", "Expected strInstructions to match the given instructions")

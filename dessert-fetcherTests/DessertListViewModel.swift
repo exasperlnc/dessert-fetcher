@@ -20,11 +20,8 @@ class DessertListViewModel: ObservableObject {
     }
     @MainActor
     func fetchDesserts() async {
-//        isLoading = true
-//        errorMessage = nil
         
-        desserts = await recipeService.fetchDesserts()
-        
-//        isLoading = false
+        let fetchedDesserts = await recipeService.fetchDesserts()
+        desserts = fetchedDesserts.sorted(by: { $0.strMeal < $1.strMeal })
     }
 }

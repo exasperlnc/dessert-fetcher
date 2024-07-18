@@ -47,7 +47,6 @@ class NetworkClientTests: XCTestCase {
         }
         expectation.fulfill()
         await fulfillment(of: [expectation])
-        //        await waitForExpectations(timeout: 5, handler: nil)
     }
 
     func testPerformRequestFetchRecipeDetail() async throws {
