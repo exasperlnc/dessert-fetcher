@@ -17,22 +17,5 @@ class NetworkClient {
             print(error)
             return .failure(error)
         }
-        
-        
-        //        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-//            if let error = error {
-//                completion(.failure(error))
-//                return
-//            }
-//            
-//            guard let data = data else {
-//                completion(.failure(NSError(domain: "No data", code: 0, userInfo: nil)))
-//                return
-//            }
-//            
-//            completion(.success(data))
-//        }
-//        
-//        task.resume()
     }
 }
