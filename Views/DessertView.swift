@@ -13,6 +13,7 @@ struct DessertView: View {
     @StateObject var viewModel = DessertListViewModel()
     
     var body: some View {
+        NavigationStack {
             if viewModel.isLoading {
                 ProgressView()
             } else {
@@ -28,6 +29,7 @@ struct DessertView: View {
                     await viewModel.fetchDesserts()
                 }
             }
+        }
     }
 }
 

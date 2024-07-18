@@ -44,11 +44,6 @@ struct RecipeView: View {
                 }
             }
             .navigationTitle(dessert.strMeal)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Back") {}
-                }
-            }
             .task {
                 await viewModel.fetchRecipe(idMeal: dessert.idMeal)
             }
