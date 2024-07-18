@@ -12,7 +12,7 @@ UI testing: I didn't have time to do UI testing that wasn't manual, but if I had
 
 Happy/Sad path testing: another good extension, and something I would do with more time to work. 
 
-Coverage: Too low for my taste.
+Coverage: Too low for my taste, adding UI + Happy/Sad path testing would go a long way
 
 ### Models
 
